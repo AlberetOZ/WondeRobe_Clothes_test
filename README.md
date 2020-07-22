@@ -11,7 +11,7 @@
 <p align='center'>Table 1: Clothes detection trained with released DeepFashion2 Dataset evaluated on validation set.</p>
 
 | AP | AP50 | AP75 | 
-|---:|---:|---:|/
+|---:|---:|---:|
 |0.638|0.789|0.745|
 
 <p align='center'>Table 2: Clothes detection on different validation subsets, including scale, occlusion, zoom-in, and viewpoint.</p>
