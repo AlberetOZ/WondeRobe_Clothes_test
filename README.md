@@ -26,3 +26,9 @@
 ## Solution
 
 Конечно, можно просто пойти по стопам составителей датасета, но с поры их решения данной задачи прошёл примерно год. Воспользуемcя более инновационной архитектурой: YOLOv3, мы получим более быстрое и точное решение.
+Преобразовав датасет в COCO Data, модифицировав cfg для COCO (config можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/yolo/df2cfg), переходим к обучению с помощью фреймворка Darknet:
+./darknet detector train cfg/coco.data cfg/yolov3.cfg darknet53.conv.74
+
+Полученные веса (checkpoints) лежат в папке https://github.com/AlberetOZ/WondeRobe_Clothes_test/yolo/weights/
+
+
