@@ -36,4 +36,4 @@
 Мы получили неплохую демо версию Детектрона атрибута одежды (Примеры работы можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/output/). В перспективе этот проект можно оптимизировать (тем более если потребуется работа с видеопотоком), расширить количество категорий одежды, модифицировать сетку и многое другое, + определять также цвет/стиль и др. По времени было затрачено ~20 часов. 
 
 # That's all
-![image](https://github.com/AlberetOZ/WondeRobe_Clothes_test/output/1+1_yolo.jpg)
+![image](https://github.com/AlberetOZ/WondeRobe_Clothes_test/output/result.png)
