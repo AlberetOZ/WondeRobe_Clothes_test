@@ -29,11 +29,12 @@
 Преобразовав датасет в COCO Data, модифицировав cfg для COCO (config можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/tree/master/yolo/df2cfg), переходим к обучению с помощью фреймворка Darknet:
 ./darknet detector train cfg/coco.data cfg/yolov3.cfg darknet53.conv.74
 
-Полученные веса (checkpoints) лежат в папке https://github.com/AlberetOZ/WondeRobe_Clothes_test/yolo/weights/
+Полученные веса (checkpoints) лежат в https://drive.google.com/drive/folders/1bKmHJyScpTRlWuVS4Uy6qh1DYhqy8zaf?usp=sharing
 
 ## Result
 
 Мы получили неплохую демо версию Детектрона атрибута одежды (Примеры работы можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/tree/master/output). В перспективе этот проект можно оптимизировать (тем более если потребуется работа с видеопотоком), расширить количество категорий одежды, модифицировать сетку и многое другое, + определять также цвет/стиль и др. По времени было затрачено ~20 часов. 
 
 # That's all
-![image](https://github.com/AlberetOZ/WondeRobe_Clothes_test/tree/master/output/result.jpg)
+
+![result](https://user-images.githubusercontent.com/32402386/88243549-6680c880-cc99-11ea-8a07-e613aefdeb0e.jpg)
