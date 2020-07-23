@@ -26,14 +26,14 @@
 ## Solution
 
 Конечно, можно просто пойти по стопам составителей датасета, но мы всё-таки используем инновационные технологии) Воспользуемcя архитектурой YOLO и мы получим более быстрое и точное решение.
-Преобразовав датасет в COCO Data, модифицировав cfg для COCO (config можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/yolo/df2cfg), переходим к обучению с помощью фреймворка Darknet:
+Преобразовав датасет в COCO Data, модифицировав cfg для COCO (config можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/tree/master/yolo/df2cfg), переходим к обучению с помощью фреймворка Darknet:
 ./darknet detector train cfg/coco.data cfg/yolov3.cfg darknet53.conv.74
 
 Полученные веса (checkpoints) лежат в папке https://github.com/AlberetOZ/WondeRobe_Clothes_test/yolo/weights/
 
 ## Result
 
-Мы получили неплохую демо версию Детектрона атрибута одежды (Примеры работы можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/output/). В перспективе этот проект можно оптимизировать (тем более если потребуется работа с видеопотоком), расширить количество категорий одежды, модифицировать сетку и многое другое, + определять также цвет/стиль и др. По времени было затрачено ~20 часов. 
+Мы получили неплохую демо версию Детектрона атрибута одежды (Примеры работы можно найти в https://github.com/AlberetOZ/WondeRobe_Clothes_test/tree/master/output). В перспективе этот проект можно оптимизировать (тем более если потребуется работа с видеопотоком), расширить количество категорий одежды, модифицировать сетку и многое другое, + определять также цвет/стиль и др. По времени было затрачено ~20 часов. 
 
 # That's all
-![image](https://github.com/AlberetOZ/WondeRobe_Clothes_test/output/result.png)
+![image](https://github.com/AlberetOZ/WondeRobe_Clothes_test/tree/master/output/result.png)
